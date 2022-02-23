@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voter Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="images/flag.png">
+            <h1>NATIONAL VOTERS' SERVICES DEMO PORTAL</h1>
+        </div>
+    </header>
+
+    <h2>NOTE:Fields marked with asterisks ( * ) are mandatory</h2>
+    <section>
+        <div class="box">
+            <h2>Type 6  [See rule 13(1) and 26]</h2>
+            <h1>Application for inclusion of name in the electoral roll for the first time due to the transfer of voter or any other constituency from any one constituency</h1>
+            <p>In Service</p>
+            <p>Electoral Registration Officer,</p>
+            <label>State *</label>
+            <select>
+                <option>Select</option>
+            </select>
+
+            <label>District *</label>
+            <select>
+                <option>Select</option>
+            </select>
+
+            <label>Legislative Assembly / Parlimentary constituency *</label>
+            <select>
+                <option>Select</option>
+            </select>
+
+            <p>I request that my name be included in electoral rolls for all the aforesaid areas.</p>
+            
+            <label><input type="radio" name="hi">First time voter</label>
+            
+            <label><input type="radio" name="hi">Due to transfer from other meeting areas.</label>
+
+           
+    
+            <p>Below are specifications in support of my claim to be included in the electoral rolls.</p>
+
+            <h3>Mandatory specifications</h3>
+            <label>(A) Name * </label>
+            <input type="text" placeholder="First Name"> <input type="text" placeholder="Last Name">
+            <br>
+            <label>(B) Surname(if any) </label>
+            <input type="text" placeholder="if any">
+            <br>
+            <label>(C) Name of the Applicant Relative * </label>
+            <input type="text" placeholder="Relative Name">
+            <br>
+            <label>(D) Type of Relationship * </label>
+            <select>
+                <option>Select</option>
+            </select>
+            <br>
+            <label>(E) Age [on January 1 of the current calender] * </label>
+            <input type="number" placeholder="Your Age">
+            <br>
+            <label>(F) Date of birth (in the form of day/ month/ year) * </label>
+            <input type="date" placeholder="Date/Month/Year">
+            <br>
+            <label>(G) Applicant's gender * </label>
+            <select>
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+            
+            <h3>(H) Current address, whose applicant is nominally resident</h3>
+            <label>House No. * </label>
+            <input type="number">
+            <br>
+            <label>Street / area / location * </label>
+            <input type="text">
+            <br>
+            <label>City / Village: * </label>
+            <input type="text">
+            <br>
+            <label>Post Office: * </label>
+            <input type="text">
+            <br>
+            <label>PinCode * </label>
+            <input type="number">
+            <br>
+            <label>State/UnionTerritory * </label>
+            <select>
+                <option>Select</option>
+            </select>
+            <br>
+            <label>District *</label>
+            <select>
+                <option>Select</option>
+            </select>
+            <br>
+            <label>Family / Neighbour Epic No. </label>
+            <input type="text">
+            <br>
+
+            <h3>Optional Specialities</h3>
+            <label>(T) Disability (if any)</label><br>
+            <label><input type="checkbox">Visual Impairment</label><br>
+            <label><input type="checkbox">Speech Hearing Impairment</label><br>
+            <label><input type="checkbox">Motion Disabling</label><br>
+            <label><input type="checkbox">Other</label>
+            <input type="text" placeholder="if other"><br>
+            <label>(Th) Email ID (optional)</label>
+            <input type="email"><br>
+            <label>(D) mobile number (optional) </label>
+            <input type="number">
+
+            <h3>Upload supporting documents (Supported formats .jpg, .png, .bmp, .jpeg) (max. 2MB)</h3>
+
+            <label>Your photo * </label>
+            <input type="file">
+            <br>
+            <label>Age Proof  * </label>
+            <input type="file">
+            <label>Document Type </label>
+            <select>
+                <option>Select</option>
+            </select>
+            <br>
+            <label>Address Proof * </label>
+            <input type="file">
+            <label>Document Type </label>
+            <select>
+                <option>Select</option>
+            </select>
+            <br>
+
+            <h3>Declaration</h3>
+
+            <p>I declare I declare that according to my best knowledge and belief</p>
+            <p>I am a citizen of India and of my birth;</p>
+            <label>City/Village</label>
+            <input type="text"><br>
+            <label>State * </label>
+            <select>
+                <option>Select</option>
+            </select>
+            <br>
+            <label>District * </label>
+            <select>
+                <option>Select</option>
+            </select>
+            <br>
+            <label>Date</label>
+            <input type="date">
+            <p>(ii) I am a nominally resident in the address given in the above (date, month, year) above;</p>
+            <p>I have not applied to include my name in the electoral roll for any other constituency;</p>
+            <label><input type="radio" name="helo">(iv) My name has not been already included in the electoral roll for this or any other assembly / parliamentary constituency</label>
+            <br>
+            <label><input type="radio" name="helo">My name would have been included in electoral rolls of the State's constituency, in which I was already residing in the address mentioned below, and if so, then I request that it be removed from that electoral roll. Go.</label>
+            <br><br>
+            <label>Location * </label>
+            <input type="text">
+            <label>Date</label>
+            <input type="date">
+
+            <p>I am afraid that the statement or declaration, which is false, to whom I know it or believe that it is false or I do not believe in being true, the People's Representation Act, 1950 (43 of 1950 ) Is punishable under section 31
+            </p>
+
+            <p>Captcha<img src="images/captcha.png"></p>
+            <input type="text" placeholder="Enter the captcha">
+
+            <div class="btn">
+                <a href="#">Reset</a>
+                <a href="#">Submit</a>
+            </div>
+            <br><br>
+        </div>
+    </section>
+
+    <footer>
+        
+        <p>Copyright &copy; 2019 Suven Consultants and Technology Pvt. Ltd.</p>
+        
+    </footer>
+</body>
+</html>
